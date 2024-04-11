@@ -1,0 +1,30 @@
+.filterCities_content {
+    display: flex;
+    flex-direction: column;
+    border: solid #D35451;
+}
+
+.cities_name {
+    text-align: center;
+    color: white;
+    background-color:#D35451 ;
+    font-weight: 500;
+    padding: 0.2em;
+}
+
+.cities_list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #D35451;
+}
+
+.cities_options {
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 0.5em;
+    &:hover {
+        background-color: #c04d4b85;
+    }
+    cursor: pointer;
+}

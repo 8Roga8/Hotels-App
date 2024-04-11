@@ -1,0 +1,63 @@
+.hotelCard {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 0.8em;
+    overflow: hidden;
+    margin-top: 3em;
+    box-shadow: 5px 5px 19px rgb(131, 120, 120);
+    transition: transform 350ms ease;
+    &:hover {
+        transform: scale(1.05);
+    };
+}
+
+.hotelCard_img{
+    width: 100%;
+    aspect-ratio: 1.2;
+}
+
+.hotelCard_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2em;
+    margin-left: 1em;
+    gap: 0.4em;    
+}
+
+.hotelCard_name {
+    margin-bottom: 1.5em;
+    font-weight: 800;
+}
+
+.hotelCard_rating{
+    font-weight: 400;
+}
+
+.hotelCard_location {
+    font-weight: 500;
+}
+
+.hotelCard_price {
+    font-weight: 600;
+}
+
+.hotelCard_footer {
+    display: flex;
+    justify-content: center;
+}
+
+.hotelCard_bnt {
+    color: white;
+    background-color: #D35451;
+    border: none;
+    border-radius: 0.4em;
+    margin: 1.5em;
+    width: 7em;
+    height: 2em;
+    font-size: 1em;
+    font-weight: 500;
+    &:hover {
+        filter: brightness(1.1);
+    }
+}

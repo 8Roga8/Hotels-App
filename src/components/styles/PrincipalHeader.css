@@ -1,0 +1,48 @@
+.principalHeader {
+    background-color:  #D35451;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1.5em;
+}
+
+.principal_link {
+    text-decoration: none;
+    color: #D35451;
+    &:hover {
+        color: #d35351a2;
+    }
+}
+
+.principalLogo {
+    background-color: white;
+    border-radius: 0.5em;
+    padding: 0.2em;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.principal_list {
+    display: flex;
+    margin-top: 0.6em;
+    margin-right: 0.6em;
+    column-gap: 0.5em;
+}
+
+.principal_options {
+    background-color: white;
+    border-radius: 0.5em ;
+    padding: 0.5em;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+@media (max-width: 560px) {
+    .principalHeader {
+        background-color:  #D35451;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 1.5em;
+    }
+}

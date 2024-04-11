@@ -1,0 +1,145 @@
+.Reviews_close {
+    transform: scale(0);
+}
+
+.Reviews_content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.226);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 150ms ease;
+}
+
+.Reviews {
+    background-color: white;
+    padding: 2em;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 1em;
+    position: relative;
+}
+
+.Reviews_title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #D35451;
+    margin-top: 0.5em;
+}
+
+.Reviews_x {
+position: absolute;
+color: #D35451;
+font-size: 1.5em;
+top: 1em;
+right: 1em;
+cursor: pointer;
+}
+
+.Reviews_info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.Reviews_info_header {
+    display: flex;
+    justify-content: center;
+}
+
+.Reviews_info_img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 0.8em;
+    margin-top: 1em ;
+}
+
+.Reviews_info_name {
+    margin-left: 1.6em;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-bottom: 0.1em;
+}
+
+.Reviews_info_city {
+    margin-left: 1.8em;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.Reviews_info_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+    margin-bottom: 2em;
+    margin-right: 0.5em;
+}
+
+.Reviews_info_cost {
+    display: flex;
+    justify-content: center;
+    font-size: 1.1em;
+}
+
+.Reviews_info_span {
+    font-weight: 600;
+    padding-right: 5em;
+}
+
+.Reviews_info_value {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.Reviews_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+
+.Reviews_label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.Reviews_label_span {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.Reviews_label_selec {
+    border: 1px solid #0003;
+    border-radius: 0.3em;
+    padding: 0.5em;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.Reviews_label_selec2 {
+    border: 1px solid #0003;
+    border-radius: 0.3em;
+    font-size: 1rem;
+}
+
+.Reviews_btn {
+    color: white;
+    background-color: #D35451;
+    border: none;
+    border-radius: 0.8em;
+    padding: 0.8em;
+    margin: 0em 1.6em 0em 1.5em;
+    font-size: 1.1em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    &:hover {
+        filter: brightness(1.1);
+    }
+}

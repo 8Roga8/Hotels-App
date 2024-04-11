@@ -1,0 +1,59 @@
+.ReservationHotel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1em;
+    gap: 1em;
+}
+
+.ReservationHotel_title {
+    margin-bottom: 0.5em;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-left: 3em;
+}
+
+.ReservationHotel_form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5em;
+}
+
+.ReservationHotel_label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+    gap: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.ReservationHotel_span {
+    padding-left: 1em;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+.ReservationHotel_input {
+    border: 1px solid #0003;
+    border-radius: 0.3em;
+    padding: 0.5em;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.ReservationHotel_btn {
+    color: white;
+    background-color: #D35451;
+    border: none;
+    border-radius: 0.4em;
+    width: 7em;
+    padding: 0.6em;
+    margin-top: 0.2em;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    &:hover {
+        filter: brightness(1.1);
+    }
+}

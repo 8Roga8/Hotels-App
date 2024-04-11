@@ -1,0 +1,73 @@
+.homePage {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.homeFilter_content {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: 2em;
+}
+
+.homeFilter_ForName {
+    display: flex;
+    flex-direction: column;
+}
+
+.homeFilter_title {
+    color: #D35451;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.ForName_title {
+    text-align: center;
+    color: white;
+    background-color:#D35451 ;
+    padding: 0.2em;
+    font-weight: 500;
+}
+
+.ForName_input {
+    border: 1px solid #0003;
+    padding: 0.2em;
+    font-size: 1em;
+}
+
+.homePage_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5em;
+
+}
+
+@media (max-width: 520px) {
+    
+    .homePage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .homePage_content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2.5em;    
+    }
+
+    .homeFilter_content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        max-width: 250px;
+        gap: 2em;
+        margin: 2em;
+    }    
+}

@@ -1,0 +1,62 @@
+.registerPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.registerPae_form {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid rgba(128, 123, 123, 0.2);
+    border-radius: 0.8em;
+    gap: 1em;
+    width: 100%;
+    max-width: 350px;
+}
+
+.registerPage_register {
+    color: #D35451;
+    border-bottom: 4px solid rgba(128, 123, 123, 0.2);
+    text-align: center;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    font-size: 1.9em;
+}
+
+.registerPage_label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
+    padding: 0em 1em;
+}
+
+.registerPage_span {
+    padding-left: 1em;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.registerPage_input {
+    border: 1px solid #0003;
+    border-radius: 0.3em;
+    padding: 0.5em;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.registerPage_btn {
+    color: white;
+    background-color: #D35451;
+    border: none;
+    border-radius: 0.8em;
+    padding: 0.8em;
+    margin: 1em;
+    font-size: 1.1em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    &:hover {
+        filter: brightness(1.1);
+    }
+}

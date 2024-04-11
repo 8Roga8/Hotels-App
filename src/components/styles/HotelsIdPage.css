@@ -1,0 +1,76 @@
+.hotelId {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 3em;
+}
+
+.hotelId_name {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.hotelId_rating {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.hotelId_location {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 1em;
+}
+
+.location_img {
+    width: 100%;
+    max-width: 350px;
+}
+.hotelIdMap{
+    width: 100%;
+    max-width: 350px;
+}
+
+.hotelId_content {
+    margin: 3em;
+    padding-left: 2em;    
+}
+
+.hotelId_name2 {
+     margin-bottom: 0.5em;
+     font-weight: 500;
+     font-size: 1.5rem;
+}
+
+.bx-map {
+    font-size: 1em;
+}
+
+.hotelId_address {
+    margin-bottom: 0.8em;
+    font-size: 1em;
+}
+
+.hotelId_description {
+    font-size: 1.1em;
+    margin-top: 0.8em;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+
+.hotelId_forReserve {
+    margin-bottom: 0.5em;
+    margin-left: 3.2em;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.hotelId_login {
+    text-decoration: none;
+    color: #D35451;
+    &:hover {
+        color: #d35351a2;
+    }
+}

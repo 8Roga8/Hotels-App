@@ -1,0 +1,50 @@
+.logged_user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    gap: 2em;
+}
+
+.logged_img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.logged_content {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(179, 172, 172, 0.2);
+    border-radius: 1em;
+    gap: 2em;
+}
+
+.logged_name {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.logged_email {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.logged_btn {
+    color: white;
+    background-color: #D35451;
+    border: none;
+    border-radius: 0.8em;
+    padding: 0.8em;
+    margin: 1em;
+    font-size: 1.1em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    &:hover {
+        filter: brightness(1.1);
+    }
+}

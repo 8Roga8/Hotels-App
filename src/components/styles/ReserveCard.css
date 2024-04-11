@@ -1,0 +1,118 @@
+.ReserveCrad {
+    display: flex;
+    border-radius: 0.8em;
+    overflow: hidden;
+    margin: 2em;
+    box-shadow: 5px 5px 19px rgb(131, 120, 120);
+}
+
+.ReserveCrad_header{
+    display: contents;
+    width: 100%;
+    max-width: 200px;
+}
+
+.ReserveCrad_img {
+    width: 100%;
+    max-width: 200px;
+    aspect-ratio: 1.2;
+    border-radius: 0.5em;
+}
+
+.ReserveCrad_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 235px;
+    gap: 1em;
+    margin: 2em;
+}
+
+.infoName {
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.infoLocation {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.infoReview {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgba(25, 25, 189, 0.856);
+    &:hover {
+        filter: brightness(2);
+    };
+    cursor: pointer;
+}
+
+.reserve_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    margin: 2.5em;
+}
+
+.reserve_spanTitle {
+    margin-right: 1em;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.reserve_spanInfo {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.ReserveCrad_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.ReserveCrad_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #D35451;
+    border: none;
+    border-radius: 0.4em;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-left: 5em;
+    padding: 0.8em;
+    &:hover {
+        filter: brightness(1.2);
+    }
+}
+
+@media (max-width: 910px) {
+    .ReserveCrad {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.8em;
+    overflow: hidden;
+    margin: 2em;
+    box-shadow: 5px 5px 19px rgb(131, 120, 120);
+}
+
+.ReserveCrad_img {
+    width: 100%;
+    max-width: 310px;
+}
+
+.reserve_list {
+    display: grid;    
+}
+
+.ReserveCrad_btn {
+    margin-left: 0;
+} 
+
+  }

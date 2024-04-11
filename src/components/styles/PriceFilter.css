@@ -1,0 +1,49 @@
+.price_filter {
+    display: flex;
+    flex-direction: column;
+    border: solid #D35451;
+}
+
+.price_name {
+    text-align: center;
+    color: white;
+    background-color:#D35451 ;
+    font-weight: 500;
+    padding: 0.2em;
+}
+
+.price_form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em
+}
+
+.price_label {
+    display: flex;
+    flex-direction: column;
+}
+
+.price_span {
+    padding: 0.5em;
+    color: #D35451;
+    font-weight: 550;
+}
+
+.price_input {
+    border: 1px solid #0003;
+    margin: 0.5em;
+    font-size: 1em;
+}
+
+.price_btn {
+    color: white;
+    background-color: #D35451;
+    border: none;
+    padding: 0.3em;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    &:hover {
+        filter: brightness(1.1);
+    }
+}

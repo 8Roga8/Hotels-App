@@ -1,0 +1,21 @@
+.otherHotels {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.otherhotels_in {
+    font-size: 1.7rem;
+    margin-left: 3em;
+    font-weight: 600;
+}
+.otherhotels_city{
+     color: #D35451;
+} 
+
+.otherHotels_Card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3em;
+}

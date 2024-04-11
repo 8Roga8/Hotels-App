@@ -1,0 +1,7 @@
+.app {
+    background-color: white;
+    color: black;
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 3em;
+}
