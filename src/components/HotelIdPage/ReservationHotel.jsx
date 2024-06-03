@@ -10,7 +10,7 @@ const ReservationHotel = ({hotelId}) => {
   const [,,createBooking] = useCrud()
 
   const submit = data => {
-    const url = 'https://hotels-api.academlo.tech/bookings'
+    const url = ' http://localhost:8080/bookings'
     data.hotelId = +hotelId
     createBooking(url, data)
     reset({

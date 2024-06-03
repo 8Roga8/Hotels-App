@@ -45,7 +45,7 @@ const RegisterPage = () => {
             <option value='unknown'>Unknown</option>
             <option value='male'>Male</option>
             <option value='female'>Female</option>
-            <option value='other'>I prefer don't say it</option>
+            <option value='other'>Other</option>
           </select>
         </label>
         <button className="registerPage_btn" >Register</button>

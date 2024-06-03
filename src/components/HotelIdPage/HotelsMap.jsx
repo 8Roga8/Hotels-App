@@ -5,7 +5,7 @@ import '../styles/HotelsMap.css'
 
 const HotelsMap = ({location}) => {
 
-    const url = `https://hotels-api.academlo.tech/hotels?cityId=${location?.cityId}`
+    const url = ` http://localhost:8080/hotels?cityId=${location?.cityId}`
     const [hotelLocation, gethotelLocation] = useFetch(url)
 
     useEffect(() => {

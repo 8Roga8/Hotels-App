@@ -9,7 +9,7 @@ const CategoryFilter = () => {
 
     
 
-    const url = 'https://hotels-api.academlo.tech/cities'
+    const url = ' http://localhost:8080/cities'
     const [cities, getCities] = useFetch(url)
 
     useEffect(() => {
@@ -22,10 +22,10 @@ const CategoryFilter = () => {
         let  url
 
         if (id) {
-            url = `https://hotels-api.academlo.tech/hotels?cityId=${id}`
+            url = ` http://localhost:8080/hotels?cityId=${id}`
         } 
         else {
-            url = 'https://hotels-api.academlo.tech/hotels'
+            url = ' http://localhost:8080/hotels'
         }
 
         dispatch(getHotelsThunk(url))

@@ -16,7 +16,7 @@ const reservationDays = (checkOut - checkIn) / (1000 * 60 * 60 * 24);
   };
 
   const handleDeleteBooking = () => {
-    const url = `https://hotels-api.academlo.tech/bookings/${reserve.id}`;
+    const url = ` http://localhost:8080/bookings/${reserve.id}`;
     deleteBooking(url, reserve.id);
   };
 
