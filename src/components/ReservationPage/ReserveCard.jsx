@@ -16,7 +16,7 @@ const reservationDays = (checkOut - checkIn) / (1000 * 60 * 60 * 24);
   };
 
   const handleDeleteBooking = () => {
-    const url = ` http://localhost:8080/bookings/${reserve.id}`;
+    const url = `postgres://api_hotels_user:u0KtLAsRZbVKtk91KGn4NlOpbt6OYdff@dpg-cpf3lpm74orc73esporg-a/api_hotels/bookings/${reserve.id}`;
     deleteBooking(url, reserve.id);
   };
 

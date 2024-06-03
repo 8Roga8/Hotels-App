@@ -9,7 +9,7 @@ const CategoryFilter = () => {
 
     
 
-    const url = ' http://localhost:8080/cities'
+    const url = 'postgres://api_hotels_user:u0KtLAsRZbVKtk91KGn4NlOpbt6OYdff@dpg-cpf3lpm74orc73esporg-a/api_hotels/cities'
     const [cities, getCities] = useFetch(url)
 
     useEffect(() => {
@@ -22,10 +22,10 @@ const CategoryFilter = () => {
         let  url
 
         if (id) {
-            url = ` http://localhost:8080/hotels?cityId=${id}`
+            url = `postgres://api_hotels_user:u0KtLAsRZbVKtk91KGn4NlOpbt6OYdff@dpg-cpf3lpm74orc73esporg-a/api_hotels/hotels?cityId=${id}`
         } 
         else {
-            url = ' http://localhost:8080/hotels'
+            url = 'postgres://api_hotels_user:u0KtLAsRZbVKtk91KGn4NlOpbt6OYdff@dpg-cpf3lpm74orc73esporg-a/api_hotels/hotels'
         }
 
         dispatch(getHotelsThunk(url))

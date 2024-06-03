@@ -6,7 +6,7 @@ const useAuth = () => {
     const navigate = useNavigate()    
     
     const registerUser = (data) => {
-        const url = ' http://localhost:8080/users'
+        const url = 'postgres://api_hotels_user:u0KtLAsRZbVKtk91KGn4NlOpbt6OYdff@dpg-cpf3lpm74orc73esporg-a/api_hotels/users'
         axios.post(url, data)
             .then(res => {
                 console.log(res.data)
@@ -16,7 +16,7 @@ const useAuth = () => {
     }
 
     const loginUser = (data) => {
-        const url = ' http://localhost:8080/users/login'
+        const url = 'postgres://api_hotels_user:u0KtLAsRZbVKtk91KGn4NlOpbt6OYdff@dpg-cpf3lpm74orc73esporg-a/api_hotels/users/login'
         axios.post(url, data)
         .then(res => { 
             console.log(res.data)

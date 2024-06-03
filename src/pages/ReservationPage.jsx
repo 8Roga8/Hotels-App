@@ -12,7 +12,7 @@ const ReservationPage = () => {
   const [ bookings, getBookings,,deleteBooking] = useCrud()    
 
     useEffect(() => {
-      const url = ' http://localhost:8080/bookings'
+      const url = 'postgres://api_hotels_user:u0KtLAsRZbVKtk91KGn4NlOpbt6OYdff@dpg-cpf3lpm74orc73esporg-a/api_hotels/bookings'
       getBookings(url)
     }, [])
     

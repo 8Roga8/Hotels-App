@@ -5,7 +5,7 @@ import '../styles/OtherHotels.css'
 
 const OtherHotels = ({hotel}) => {
 
-const url = ` http://localhost:8080/hotels?cityId=${hotel?.cityId}`
+const url = `postgres://api_hotels_user:u0KtLAsRZbVKtk91KGn4NlOpbt6OYdff@dpg-cpf3lpm74orc73esporg-a/api_hotels/hotels?cityId=${hotel?.cityId}`
 const [hotelsInCity, getHotelsInCity] = useFetch(url)
 
    useEffect(() => {
