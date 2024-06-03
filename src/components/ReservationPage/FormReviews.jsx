@@ -9,7 +9,7 @@ const FormReviews = ({reserveSelected,  setReserveSelected, formClose,setFormClo
     const [,,createReview] = useCrud()
 
     const submit = data => {
-        const url = 'postgres://api_hotels_user:u0KtLAsRZbVKtk91KGn4NlOpbt6OYdff@dpg-cpf3lpm74orc73esporg-a/api_hotels/reviews'
+        const url = 'https://hotels-t8vd.onrender.com/reviews'
         data.hotelId = reserveSelected?.hotel.id
         data.rating = +data.rating
         createReview(url, data)
